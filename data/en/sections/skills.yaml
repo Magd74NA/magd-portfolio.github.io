@@ -13,46 +13,27 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
+- name: Proficient
   filter: "basic"
-- name: Language
+- name: Languages
   filter: "language"
-- name: Container
-  filter: "container"
 - name: Others
   filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Java
+  logo: /images/sections/skills/Java.png
+  summary: "Using as the main language for professional work. Capable of writing scalable, testable, and maintainable programs."
+  categories: ["basic", "language"]
+  url: "https://java.com/"
 
 - name: Go Development
   logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "Using as the main language for personal development. I use go for all my research and sstudy and for most projects and proof of concept work."
   categories: ["basic", "language"]
   url: "https://golang.org/"
-
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
-
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -62,10 +43,22 @@ skills:
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+  categories: ["basic","others"]
   url: "https://git-scm.com/"
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  summary: "Know basic C/C++ programming. Studied as part of my university degree. Looking to develop my skills further"
+  categories: ["language"]
+
+- name: Elixir
+  logo: /images/sections/skills/Elixir.svg
+  summary: "Toying with Elixir for learning functional programming fundamentals, concurrency, dynamic typing as well as exploring the BEAM virtual machine and the Actor Model of concurrency"
+  categories: ["language"]
+  url: "https://elixir-lang.org/"
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Used professionally in a startup environment to quickly digitize high volumes of excel, csv and quickbooks data"
+  categories: ["language"]
+  url: "https://python.org/"
