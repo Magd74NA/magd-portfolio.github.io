@@ -1,6 +1,6 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: Example Site
+title: Magd's Portfolio
 
 module:
   imports:
@@ -189,7 +189,7 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
@@ -260,11 +260,11 @@ params:
 
     # Enables copy code button
     copyCodeButton:
-      enable: true
+      enable: false
 
     # Enable reading time support in post cards and in post pages
     readingTime:
-      enable: true
+      enable: false
 
   # Provide footer configuration.
   footer:
