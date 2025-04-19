@@ -23,3 +23,10 @@ projects:
   timeline: "April 16 2025 - Present"
   summary: My personal website to showcase my projects and share some random thoughts!
   tags: []
+
+- name: Atomic Go Fileserver
+  logo: /images/sections/projects/fileServer.png
+  role: Owner
+  timeline: "April 19 2025"
+  summary: A quickly written file server that can handle high concurrency uploads with atomic operations written without any mutexes with a custom unique id generation system! More details in my blog section.
+  tags: []

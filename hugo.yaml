@@ -112,20 +112,20 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       showAuthor: true
-      # Share post on different social media
-      #shareButtons:
-       # facebook: true
-        #twitter: true
-        #linkedin: true
-        #reddit: true
-        #whatsapp: true
-        #email: true
-        # tumblr: true
-        # pocket: true
-        # diaspora: true
-        # mastodon: true
+       Share post on different social media
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: false
+        email: false
+        tumblr: false
+        pocket: false
+        diaspora: false
+        mastodon: true
 
     # Enable & configure "Notes" features
     notes:
@@ -263,7 +263,7 @@ params:
 
     # Enable reading time support in post cards and in post pages
     readingTime:
-      enable: false
+      enable: true
 
   # Provide footer configuration.
   footer:
