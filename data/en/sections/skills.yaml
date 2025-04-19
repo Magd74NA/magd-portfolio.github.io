@@ -31,7 +31,7 @@ skills:
 
 - name: Go Development
   logo: /images/sections/skills/go.png
-  summary: "Using as the main language for personal development. I use go for all my research and sstudy and for most projects and proof of concept work."
+  summary: "Using as the main language for personal development. I use go for all my research and study and for most projects and proof of concept work."
   categories: ["basic", "language"]
   url: "https://golang.org/"
 
